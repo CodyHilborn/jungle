@@ -1,0 +1,19 @@
+<header class="page-header">
+  <h1>Admin &raquo; Categories</h1>
+</header>
+
+<div class="card w-50 text-center">
+  <div class="card-header">
+    <h3>Current Categories</h3>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"> 
+    <% @categories.each do |category| %>
+   <p> <%= category.name %> </p>
+    <% end %>  
+    </h5>
+  </div>
+  <div class="card-footer text-muted">
+    <%= link_to 'Back To Dashboard', admin_root_path, class: 'btn btn-primary' %>
+  </div>
+</div>
