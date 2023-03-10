@@ -15,9 +15,9 @@ RSpec.describe "Sessions", type: :request do
     end
   end
 
-  describe "GET /destory" do
+  describe "GET /destroy" do
     it "returns http success" do
-      get "/sessions/destory"
+      get "/sessions/destroy"
       expect(response).to have_http_status(:success)
     end
   end
