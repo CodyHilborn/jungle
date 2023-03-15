@@ -1,6 +1,12 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+**Welcome to (the) Jungle**! A mini e-commerce application built using Ruby with Rails 6.1. Jungle allows you to view a list of products, add them to your cart, and simulate checkout/purchase functionality using Stripe. Users can conveniently browse through products by category, and even click on individual products to view a more detailed description.
+
+Those with proper admin credentials have access to a dashboard containing details about certain metrics of the application. Admins can also perform CRUD operations on store categories, products, and sales promotions.
+
+Follow the instructions below to get started!
+
+**DISCLAIMER**: This application has no affiliation with the band _Guns N' Roses_, despite the hilarious reference above. There will be absolutely no access to guns, and any mention of roses is purely coincidental.
 
 ## Setup
 
@@ -29,3 +35,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots
+
+!["Home Page"]()
+!["Admin Products Page"]()
+!["Fulfilled Order Page"]()
